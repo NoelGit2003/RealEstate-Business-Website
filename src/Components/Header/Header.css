@@ -1,0 +1,28 @@
+.logo{
+    border-radius: 100%;
+}
+
+.h-wrapper{
+    background-color: black;
+    color: white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);  /* less opacity than parent component */
+
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu>*:hover{
+    padding: 6px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: grey;
+}
+
