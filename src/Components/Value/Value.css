@@ -56,6 +56,9 @@
     font-size: 1.4rem;
 }
 
+.v-wrapper .accordionItem .secondaryText{
+    color: darkslategray;
+}
 /* .accordionButton{
     box-shadow: var(--shadow);
     border-radius: 6px;

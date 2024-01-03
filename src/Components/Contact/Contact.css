@@ -1,5 +1,5 @@
 .c-container{
-    gap: 12rem;
+    gap: 8rem;
     justify-content: space-between;
 
 }
@@ -53,12 +53,9 @@
     box-shadow: var(--shadow);
 }
 
-.mode .button:hover{
+
+/* .mode .button:hover{
     background-color: blue;
     color: aliceblue;
     scale: 0.8;
-}
-
-.row{
-  
-}
+} */

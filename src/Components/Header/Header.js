@@ -7,11 +7,11 @@ function Header(){
             <div className="flexCenter paddings h-container">
                 <img className="logo" src="logo.png" alt="logo" width={100} />
                     <div className="flexCenter h-menu">
+                        <a href="">Get Started</a>
                         <a href="">Residencies</a>
                         <a href="">Our Value</a>
                         <a href="">Contact Us</a>
-                        <a href="">Get Started</a>
-                        <button className='button'>Contact</button> 
+                        {/* <button className='button'>Contact</button>  */}
                     </div>
             </div>
         </section>

@@ -47,7 +47,7 @@ const Residencies = () => {
                                 </div>
 
 
-                                <span className="primaryText">
+                                <span className="secondaryText">
                                     {card.detail}
                                 </span>
                             </div>
