@@ -1,0 +1,35 @@
+.f-wrapper{
+    margin-top: 1rem;  
+    background-color: black;
+    border-top: 0.2rem solid #0e0b19;
+    color: white;
+}
+
+.credit{
+    gap: 0.2rem;
+}
+
+.heart{
+    color: red;
+    fill: red;
+    opacity: 0.6;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    animation: heartbeat 3s infinite;
+}
+
+@keyframes heartbeat{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.25);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+

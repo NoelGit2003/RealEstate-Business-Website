@@ -1,8 +1,9 @@
 .extra-wrapper{
+    padding-top: 0rem;
     color:white;
     position: relative;
     padding-bottom: 2rem;
-    /* background-color: black; */
+    background-color: #050409;
 }
 
 .extra-container{

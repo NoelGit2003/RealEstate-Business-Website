@@ -11,13 +11,16 @@
 .h-wrapper{
     background-color: black;
     color: white;
+    border-bottom: 0.2rem solid #0e0b19;
+    
 }
 
 .h-container{
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color: var(--secondary);  /* less opacity than parent component */
+    /* color: var(--secondary);
+      less opacity than parent component */
 
 }
 

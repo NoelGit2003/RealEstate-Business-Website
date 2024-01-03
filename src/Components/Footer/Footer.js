@@ -1,8 +1,17 @@
 import React from 'react'
+import { FiHeart } from 'react-icons/fi'
+import './Footer.css'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div>Noel</div>
+    <section className="flexCenter f-wrapper">
+      <div className="paddings flexCenter credit">
+        <p>Made by Noel William</p>
+       
+        <FiHeart className='heart'></FiHeart>
+   
+      </div>
+    </section>
   )
 }
 

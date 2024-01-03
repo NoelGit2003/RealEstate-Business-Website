@@ -5,6 +5,7 @@ import Extra from './Components/Extra/Extra';
 import Header from './Components/Header/Header';
 import Residencies from './Components/Residencies/Residencies';
 import Value from './Components/Value/Value';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Residencies />
       <Value />
       <Contact />
+      <Footer />
     </div>
   );
 }
