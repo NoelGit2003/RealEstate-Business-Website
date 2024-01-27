@@ -1,7 +1,6 @@
 import React from "react";
-
-import { useRef } from "react";
-
+import { useRef
+ } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
 
@@ -10,11 +9,11 @@ import data from "../../utils/slider.json";  //try to use firebase
 import { sliderSettings } from "../../utils/common";
 
 
-const Residencies = () => {
+export const Residencies = () => {
     const swiperRef = useRef();
 
     return (
-        <section className="r-wrapper">
+        <section id="residencies" className="r-wrapper">
             <div className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
                     <span className='orangeText'>Best Choices</span>

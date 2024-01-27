@@ -10,12 +10,13 @@ import './Value.css'
 import data from '../../utils/accordion'
 
 const Value = () => {
-    const [className, setClassName] = useState(null)
+
+    const [className, setClassName] = useState(null);
     return (
-        <section className="v-wrapper">
+        <section id='ourValue' className="v-wrapper">
             <div className="paddings innerWidth flexCenter v-container">
                 {/*left side*/}
-                
+
                 <div className="v-left">
                     <div className="image-container">
                         <img src="./main3.jpg" alt="main2_image" />
@@ -33,7 +34,7 @@ const Value = () => {
                     <Accordion className="accordion" allowMultipleExpanded={false} preExpanded={[0]}>
                         {
                             data.map((item, i) => {
-                                
+
 
                                 return (
                                     <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i} >
@@ -41,8 +42,8 @@ const Value = () => {
                                             <AccordionItemButton className='flexCenter accordionButton'>
 
                                                 <AccordionItemState>
-                                                {( {expanded} ) => expanded ? setClassName("expanded") : setClassName('collapsed')}
-                                            </AccordionItemState>
+                                                    {({ expanded }) => expanded ? setClassName("expanded") : setClassName('collapsed')}
+                                                </AccordionItemState>
 
                                                 <div className="flexCenter icon">{item.icon}</div>
                                                 <span className='primaryText'>{item.heading}</span>

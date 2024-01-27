@@ -2,6 +2,11 @@
     border-radius: 100%;
 }
 
+.nameHead {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
 .h-wrapper{
     position: sticky;
     top: 0;

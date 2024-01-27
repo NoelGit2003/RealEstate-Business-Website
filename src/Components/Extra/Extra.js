@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Extra.css"
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
