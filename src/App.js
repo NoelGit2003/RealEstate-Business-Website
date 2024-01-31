@@ -1,24 +1,23 @@
 import './App.css';
-import Companies from './Components/Companies/Companies';
-import Contact from './Components/Contact/Contact';
-import Extra from './Components/Extra/Extra';
+import Home from './Components/Home/Home';
 import Header from './Components/Header/Header';
-import Residencies from './Components/Residencies/Residencies';
-import Value from './Components/Value/Value';
 import Footer from './Components/Footer/Footer';
+import { Routes, Route } from 'react-router-dom';
+import ReviewsPage from './Components/ReviewsPage/ReviewsPage';
 
 function App() {
   return (
     <div className="App">
       <div>
-      <Header />
-        <Extra />
+        <Header />
+        <Routes>
+          <Route path="/home" element={<Home />}>
+          </Route>
+          <Route path="/reviews" element={<ReviewsPage />}>
+          </Route>
+        </Routes>
+        <Footer />
       </div>
-      <Companies />
-      <Residencies />
-      <Value />
-      <Contact />
-      <Footer />
     </div>
   );
 }

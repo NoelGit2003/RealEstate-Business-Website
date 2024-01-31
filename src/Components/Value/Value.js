@@ -13,7 +13,7 @@ const Value = () => {
 
     const [className, setClassName] = useState(null);
     return (
-        <section id='ourValue' className="v-wrapper">
+        <section className="v-wrapper">
             <div className="paddings innerWidth flexCenter v-container">
                 {/*left side*/}
 
@@ -24,7 +24,7 @@ const Value = () => {
                 </div>
 
                 {/*right side*/}
-                <div className="flexColStart v-right">
+                <div id='ourValue' className="flexColStart v-right">
                     <span className='orangeText'>Our Value</span>
                     <span className='primaryText'>Value we provide to you</span>
                     <span className='secondaryText'>We are always there for you to find the right property

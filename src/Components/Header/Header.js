@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -20,10 +21,11 @@ function Header() {
                 </div>
 
                 <div className="flexCenter h-menu">
-                    <div>Reviews</div>
-                    <div onClick={() => handleClickScroll('residencies')}>Residencies</div>
-                    <div onClick={() => handleClickScroll('ourValue')}>Our Value</div>
-                    <div onClick={() => handleClickScroll('contactUs')}>Contact Us</div>
+                    <div onClick={() => handleClickScroll('extra')}><Link to="/home">Home</Link></div>
+                    <div><Link to="/reviews">Reviews</Link></div>
+                    <div onClick={() => handleClickScroll('residencies')}><Link to="/home">Residencies</Link></div>
+                    <div onClick={() => handleClickScroll('ourValue')}><Link to="/home">Our Value</Link></div>
+                    <div onClick={() => handleClickScroll('contactUs')}><Link to="/home">Contact Us</Link></div>
                 </div>
             </div>
         </section>

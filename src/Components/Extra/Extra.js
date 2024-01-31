@@ -1,11 +1,11 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Extra.css"
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
 
 function Extra() {
     return (
-        <section className="paddings extra-wrapper">
+        <section id = 'extra' className="paddings extra-wrapper">
             <div className="paddings flexCenter extra-container">
                 <div className="flexColStart extra-left">
                     <div className="extra-title">
@@ -53,7 +53,7 @@ function Extra() {
                 
                 <div className="flexCenter extra-right">
                     <div className="image-container">
-                        <img src="./mainimage.jpg" alt="main image" />
+                        <img src="./mainimage.jpg" alt='main_i'/>
                     </div>
                 </div>
             </div>
