@@ -1,0 +1,49 @@
+.rh-wrapper {
+    color: white;
+    border-bottom: 2px solid lightblue;
+    background-color: #050409;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+.greeting{
+    display: flex;
+    justify-content: center;
+}
+
+.s-block{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.stars {
+    unicode-bidi: bidi-override;
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    color: #ddd;
+    /* Color of inactive stars */
+    position: relative;
+    display: inline-block;
+    left: 2vw;
+    margin-top: 1rem;
+}
+
+.stars::before {
+    content: '\2605\2605\2605\2605\2605';
+    /* Unicode characters for five stars */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    /* Color of active stars (white in this case) */
+    overflow: hidden;
+}
+
+
+.r_button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}

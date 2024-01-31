@@ -1,0 +1,42 @@
+.rm-wrapper{
+    font-family: Arial, sans-serif;
+    background-color: #050409;
+}
+
+.rm-head{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.reviews-container {
+    max-width: 90vw;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.review {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.review-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    color: #777;
+    font-size: 12px;
+}
+
+.review-title {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.review-body {
+    margin-top: 10px;
+}
