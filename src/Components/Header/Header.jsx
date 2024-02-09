@@ -21,11 +21,11 @@ function Header() {
                 </div>
 
                 <div className="flexCenter h-menu">
-                    <div onClick={() => handleClickScroll('extra')}><Link to="/home">Home</Link></div>
+                    <div onClick={() => handleClickScroll('extra')}><Link to="/">Home</Link></div>
                     <div><Link to="/reviews">Reviews</Link></div>
-                    <div onClick={() => handleClickScroll('residencies')}><Link to="/home">Residencies</Link></div>
-                    <div onClick={() => handleClickScroll('ourValue')}><Link to="/home">Our Value</Link></div>
-                    <div onClick={() => handleClickScroll('contactUs')}><Link to="/home">Contact Us</Link></div>
+                    <div onClick={() => handleClickScroll('residencies')}><Link to="/">Residencies</Link></div>
+                    <div onClick={() => handleClickScroll('ourValue')}><Link to="/">Our Value</Link></div>
+                    <div onClick={() => handleClickScroll('contactUs')}><Link to="/">Contact Us</Link></div>
                 </div>
             </div>
         </section>
