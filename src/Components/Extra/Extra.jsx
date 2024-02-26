@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 function Extra() {
     return (
         <section id = 'extra' className="paddings extra-wrapper">
-            <div className="paddings flexCenter extra-container">
+            <div className="paddings innerWidth flexCenter extra-container">
                 <div className="flexColStart extra-left">
                     <div className="extra-title">
                         <div className="blueCircle"></div>
