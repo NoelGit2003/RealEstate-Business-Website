@@ -1,7 +1,12 @@
 .rh-wrapper {
     color: white;
-    border-bottom: 2px solid lightblue;
+    /* border-bottom: 2px solid lightblue; */
     background-color: #050409;
+}
+
+.rm-head{
+    color: white;
+    font-size: 0.8rem;
 }
 
 .heading{
