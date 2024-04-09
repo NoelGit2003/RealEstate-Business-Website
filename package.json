@@ -6,7 +6,10 @@
       "localhost",
       ".localhost"
     ],
-    "proxy": "https://localhost:7000/"
+    "proxy": [
+      "https://localhost:7000/",
+      "https://localhost:5000/"
+    ]
   },
   "private": true,
   "dependencies": {

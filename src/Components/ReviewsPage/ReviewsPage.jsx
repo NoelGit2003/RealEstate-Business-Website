@@ -1,6 +1,5 @@
 import React from 'react'
 import RHeader from './ReviewsComponents/RHeader/RHeader'
-
 import RMain from './ReviewsComponents/RMain/RMain'
 
 const ReviewsPage = () => {
@@ -8,7 +7,6 @@ const ReviewsPage = () => {
     <div>
       <RHeader />
       <RMain /> 
-      
     </div>
   )
 }
