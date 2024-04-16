@@ -27,11 +27,10 @@ const RMain = () => {
 
     const reviewFetcher = async () => {
         try {
-            const {data} = await axios.get('/reviews')
+            const { data } = await axios.get('http://localhost:7000/getReviews'); // Update URL to '/getReviews'
             setReviews(data);
             return data;
-        }
-        catch (error) {
+        } catch (error) {
             console.error(error);
         }
         return null;
