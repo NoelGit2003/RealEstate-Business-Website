@@ -1,6 +1,7 @@
 import './RMain.css'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import NODE_URL from '../../../../env'
 
 const Review = ({ author, date, title, body }) => {
     return (
@@ -27,7 +28,7 @@ const RMain = () => {
 
     const reviewFetcher = async () => {
         try {
-            const { data } = await axios.get('http://localhost:7000/getReviews'); // Update URL to '/getReviews'
+            const { data } = await axios.get(`${NODE_URL[1]}/getReviews`); // Update URL to '/getReviews'
             setReviews(data);
             return data;
         } catch (error) {

@@ -92,6 +92,9 @@ h2 {
 }
 
 .result {
+    display: flex;
+    justify-content: center;
+    color: black;
     background: #dcd686;
     margin-bottom: 3rem;
 }

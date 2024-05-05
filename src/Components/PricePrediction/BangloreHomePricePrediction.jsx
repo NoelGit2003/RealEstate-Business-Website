@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './BangloreHomePricePrediction.css';
+import REACT_APP_BASE_URL from '../../env';
+
 
 const BangloreHomePricePrediction = () => {
     const [area, setArea] = useState('1000');
@@ -43,8 +45,8 @@ const BangloreHomePricePrediction = () => {
     }
 
     const fetchLocationNames = () => {
-        const url = "http://localhost:5000/get_location_names"; // Use this if you are NOT using nginx
-        // const url = "/api/get_location_names"; // Use this if you are using nginx
+        const url = `${REACT_APP_BASE_URL[0]}/get_location_names`;
+        
         fetch(url)
             .then(response => response.json())
             .then(data => {
@@ -57,8 +59,8 @@ const BangloreHomePricePrediction = () => {
     }
 
     const fetchPrediction = (sqft, bhk, bath, location) => {
-        const url = "http://localhost:5000//predict_home_price"; // Use this if you are NOT using nginx
-        // const url = "/api/predict_home_price"; // Use this if you are using nginx
+        const url = `${REACT_APP_BASE_URL[0]}/predict_home_price`; 
+        
         fetch(url, {
             method: 'POST',
             headers: {
