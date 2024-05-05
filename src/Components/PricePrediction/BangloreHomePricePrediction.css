@@ -60,7 +60,13 @@
 h2 {
     font-size: 18px;
     margin-bottom: 8px;
-    color: white;
+    color: white
+}
+
+#uiEstimatedPrice > h2 {
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 1rem;
 }
 
 .area,
